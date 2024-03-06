@@ -54,7 +54,7 @@ const GameBoard = () => {
   };
 
   const renderCell = (index) => {
-    const opacity = new Animated.Value(1); // Initialiser la valeur d'opacité à 1
+    const opacity = new Animated.Value(1); 
 
     const onPress = () => {
       if (!board[index]) {
